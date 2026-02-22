@@ -1,0 +1,8 @@
+#Program to test the divisibilty of a number by another number
+n1=int(input("Enter number whose divisibility is to be checked"))
+n2=int(input("Enter number by whom divisibility is to be checked"))
+
+if n1%n2==0:
+    print(n1, "is divisible by", n2)
+else:
+    print(n1, "is not divisible by", n2)
