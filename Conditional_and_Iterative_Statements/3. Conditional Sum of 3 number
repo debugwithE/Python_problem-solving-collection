@@ -1,0 +1,28 @@
+#Program that inputs 3 numbers and calculates 2 sums as per this:
+#Sum1: the sum of all input numbers
+#Sum2: the sum of non-duplicate numbers: if there are duplicate numbers in the input, ignores them
+
+#e.g: Input of 2 numbers 2,3,4 will give sum 9 and 9
+#e.g.: Input of 3,2,3 will give the sums as 8 and 2 (both 3's ignored for 2nd sum)
+#e.g.: Input of numbers 4,4,4 will give the 2 sums as 12 and 0
+
+
+x=int(input('Enter a number'))
+y=int(input('Enter a number'))
+z=int(input('Enter a number'))
+sum1=x+y+z
+sum2=0
+
+if x!=y and x!=z:
+   sum2=sum2+x
+if y!=z and y!=x:
+   sum2=sum2+y
+if z!=x and z!=y:
+   sum2=sum2+z
+
+print(sum1)
+print(sum2)
+
+
+#NOTE: do not use bitwise &, use 'and'
+#The code works for only integers
