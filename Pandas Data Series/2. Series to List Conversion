@@ -1,0 +1,8 @@
+# 2. Series to List Conversion
+## Write a Pandas program to convert a Panda module Series to Python list and it's type.
+
+import pandas as pd
+ds=pd.Series([10, 20, 30, 40, 50])
+type(ds)     # Output: pandas.core.series.Series
+ds.tolist()
+type(ds.tolist())     # Output: list
