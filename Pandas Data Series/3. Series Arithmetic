@@ -1,0 +1,13 @@
+# 3. Series Arithmetic
+# Write a Pandas program to add, subtract, multiple and divide two Pandas Series.
+
+a1=pd.Series([10, 20, 30, 40, 50])
+a2=pd.Series([1000, 2000, 3000, 4000, 5000])
+sum=a1+a2
+sum
+sub=a1-a2
+sub
+mul=a1*a2
+mul
+div=a1/a2
+div
