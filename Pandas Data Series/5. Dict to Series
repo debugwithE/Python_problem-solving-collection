@@ -1,0 +1,7 @@
+# 5. Dict to Series
+# Write a Pandas program to convert a dictionary to a Pandas series.
+
+d1= {'a': 100, 'b': 200, 'c':300, 'd':400, 'e':800}
+print("The Given Dictionary is:", d1, "\n")
+s=pd.Series(d1)
+print("Converted Series:\n", s)
