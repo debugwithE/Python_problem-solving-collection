@@ -1,0 +1,12 @@
+#4. Series Comparison
+#Write a Pandas program to compare the elements of the two Pandas Series.
+
+import pandas as pd
+a=pd.Series([2, 4, 6, 8, 10])
+b=pd.Series([1,3,5,7,10])
+print("Equal")
+print(a==b)
+print("a Greater Than b:")
+print(a>b)
+print("a Less Than b:")
+print(a<b)
