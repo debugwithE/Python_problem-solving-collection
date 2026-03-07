@@ -1,0 +1,14 @@
+# 1. Calculate string length.
+# Write a Python program to calculate the length of a string.
+
+a=input("Enter String")
+print("Length of String \"",a,"\": ", len(a)) 
+
+#Without using Inbuilt Function
+def str_length(s1):
+    count=0
+    for c in s1:
+        count+=1
+    return count
+
+print(str_length(""))
