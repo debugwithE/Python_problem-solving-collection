@@ -28,4 +28,4 @@ df=pd.DataFrame(exam_data, index=labels)
 t=df[(df['attempts']<2) & (df['score']>15)]
 print("Number of attempts in the examination is less than 2 and score greater than 15:", t)
 
-NOTE: Keep the conditions spearated via brqackets
+NOTE: Keep the conditions spearated via brackets
