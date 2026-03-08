@@ -9,11 +9,9 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 Expected Output:
-Rows where score between 15 and 20 (inclusive):                        
-   attempts       name qualify  score                                  
-c         2  Katherine     yes   16.5                                
-f         3    Michael     yes   20.0                                 
-j         1      Jonas     yes   19.0
+Number of attempts in the examination is less than 2 and score greater than 15 :
+    name  score  attempts qualify
+j  Jonas   19.0         1     yes
 
 #10.
 import pandas as pd
