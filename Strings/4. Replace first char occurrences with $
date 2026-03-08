@@ -1,0 +1,13 @@
+# 4. Replace first char occurrences with $.
+# Write a Python program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself.
+Sample String : 'restart'
+Expected Result : 'resta$t'
+
+def modifyst(s):
+    fc=s[0]
+    ns=s.replace(fc, '$')
+    str=fc+ns[1:]
+    return str
+
+s=input("Enter String")
+print(modifyst(s))
