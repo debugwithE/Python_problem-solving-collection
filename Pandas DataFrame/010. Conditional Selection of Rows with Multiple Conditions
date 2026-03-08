@@ -1,5 +1,5 @@
-# 10. Selecting Rows Where Score is Between 15 and 20
-# Write a Pandas program to select the rows the score is between 15 and 20 (inclusive).
+#10. Selecting Rows with Attempts < 2 and Score > 15
+Write a Pandas program to select the rows where number of attempts in the examination is less than 2 and score greater than 15.
 
 Sample Python dictionary data and list labels:
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
