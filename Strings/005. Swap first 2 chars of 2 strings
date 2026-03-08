@@ -1,0 +1,9 @@
+5. Swap first 2 chars of 2 strings.
+Write a Python program to get a single string from two given strings, separated by a space and swap the first two characters of each string.
+Sample String : 'abc', 'xyz'
+Expected Result : 'xyc abz'
+
+s1=input("Enter first string")
+s2=input("Enter second string")
+s3=s2[:2]+s1[2:]+" "+s1[:2]+s2[2:]
+s3
