@@ -1,0 +1,15 @@
+#9. Remove nth character from a string.
+## Write a Python program to remove the nth index character from a nonempty string.
+
+#9.
+def remove_char(s, n):
+    if (n<len(s)):
+        snew=s[:n]+s[n+1:]
+        return snew
+    else:
+        print("Index number greater than string length, returning original string")
+        return s
+        
+s=input("Enter a string")
+n=int(input("Enter position to remove character from"))
+print (remove_char(s, n))
