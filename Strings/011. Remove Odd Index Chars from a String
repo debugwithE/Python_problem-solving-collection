@@ -1,0 +1,15 @@
+# 11. Remove odd index chars from a string.
+# Write a Python program to remove characters that have odd index values in a given string.
+
+#11.
+def removeodd(s):
+    str=""
+
+    for i in range(len(s)):
+        if i%2==0:
+            str+=s[i]
+
+    return str
+
+s=input("Enter String to be modified")
+removeodd(s)    
