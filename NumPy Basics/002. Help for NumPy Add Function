@@ -1,0 +1,6 @@
+# 2. Help for NumPy Add Function
+# Write a NumPy program to get help with the add function.
+
+#2. 
+import numpy as np
+print(np.info(np.add))
