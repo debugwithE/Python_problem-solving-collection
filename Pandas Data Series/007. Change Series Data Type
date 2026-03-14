@@ -26,3 +26,5 @@ print (a)
 print("Change the said data type to numeric:")
 s2=pd.to_numeric(a, errors='coerce')
 print (s2)
+
+## what does errors='coerce' do?
